@@ -1,0 +1,5 @@
+CREATE TABLE user_entry (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(255) NOT NULL,
+    type VARCHAR(100) NOT NULL
+);
